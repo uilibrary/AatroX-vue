@@ -1,0 +1,32 @@
+{
+  "name": "atrox",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.4.1",
+    "apexcharts": "^3.28.1",
+    "vue": "^3.2.6",
+    "vue-router": "^4.0.11",
+    "vue3-apexcharts": "^1.4.1",
+    "vue3-perfect-scrollbar": "^1.5.5",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.6.0",
+    "@vue/compiler-sfc": "^3.0.5",
+    "autoprefixer": "^10.3.3",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-vue": "^7.17.0",
+    "postcss": "^8.3.6",
+    "prettier": "^2.3.2",
+    "sass": "^1.38.2",
+    "sass-loader": "^12.1.0",
+    "tailwindcss": "^2.2.9",
+    "vite": "^2.5.1"
+  }
+}

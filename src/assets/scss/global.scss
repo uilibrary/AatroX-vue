@@ -1,0 +1,68 @@
+@import '../iconsmind/iconsmind.css';
+@import 'typography.scss';
+// @import "sidebar-large/sidebar-large";
+// html,
+// body {
+//     font-size: 0.875rem;
+
+// }
+body {
+    background-color: rgba(245, 243, 255, 1);
+    color: #47404f;
+   font-family: Nunito,sans-serif !important;
+}
+.z-1 {
+    z-index: 1;
+}
+
+.card-title {
+    font-size: 1.1rem;
+}
+.card-header {
+    padding: 1rem 1.25rem;
+    @apply border-b;
+}
+
+.ui-lib-br {
+    border-radius: 10px;
+}
+.ui-lib-shadow {
+    box-shadow: 0 4px 20px 1px rgb(0 0 0 / 6%), 0 1px 4px rgb(0 0 0 / 8%);
+}
+// button components
+.btn {
+    &.btn-sm {
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+        padding-top: 0.25rem;
+        padding-bottom: 0.25rem;
+        font-size: 0.75rem;
+        line-height: 1rem;
+    }
+}
+.badge-top-container {
+    position: relative;
+    span.badge-count {
+        position: absolute;
+        top: -3px;
+        right: 5px;
+        padding: 2px 7px;
+        font-size: 10px;
+        border-radius: 50%;
+    }
+}
+
+// avatar
+.avatar {
+    height: 36px;
+    width: 36px;
+    min-width: 36px;
+    min-height: 36px;
+}
+
+// box-shadows
+.custom-box-shadow {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
