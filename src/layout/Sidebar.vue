@@ -1,20 +1,14 @@
 <script setup>
 import { useStore } from 'vuex'
-import { useRoute } from 'vue-router';
+import { useRoute } from 'vue-router'
 
 let store = useStore()
 let route = useRoute()
 
 let toggleSubMenu = (e) => {
-   
     // let parent = e.target.dataset.item;
-    console.log(e.target);
-   
-    
-    
-    
+    console.log(e.target)
 }
-
 </script>
 <template>
     <div class="side-content-wrap">
@@ -37,51 +31,69 @@ let toggleSubMenu = (e) => {
                             data-item="dashboards"
                             
                         ></div> -->
-                        <router-link  to="/dashboards/dashboard-version-one" tag="li" class="nav-item">
+                        <router-link
+                            to="/dashboards/dashboard-version-one"
+                            tag="li"
+                            class="nav-item"
+                        >
                             <div class="nav-item-hold">
                                 <i class="i-Bar-Chart text-3xl"></i>
                                 <p>Dashboard</p>
                             </div>
                         </router-link>
-                        <router-link  to="/components/button" tag="li" class="nav-item">
+                        <router-link
+                            to="/components/button"
+                            tag="li"
+                            class="nav-item"
+                        >
                             <div class="nav-item-hold">
                                 <i class="i-Wallet text-3xl"></i>
                                 <p>Buttons</p>
                             </div>
                         </router-link>
-                        <router-link  to="/profile/profileTwo" tag="li" class="nav-item">
+                        <router-link
+                            to="/profile/profileTwo"
+                            tag="li"
+                            class="nav-item"
+                        >
                             <div class="nav-item-hold">
                                 <i class="i-Find-User text-3xl"></i>
                                 <p>Profile</p>
                             </div>
                         </router-link>
-                        <router-link  to="/signIn" tag="li" class="nav-item">
+                        <router-link to="/signIn" tag="li" class="nav-item">
                             <div class="nav-item-hold">
                                 <i class="i-Checked-User text-3xl"></i>
                                 <p>Sign In</p>
                             </div>
                         </router-link>
-                        <router-link  to="/signUp" tag="li" class="nav-item">
+                        <router-link to="/signUp" tag="li" class="nav-item">
                             <div class="nav-item-hold">
                                 <i class="i-Checked-User text-3xl"></i>
                                 <p>Sign Up</p>
                             </div>
                         </router-link>
-                        
+
+                        <a
+                            href="https://aatorx-vue-doc.vercel.app/"
+                            tag="a"
+                            class="nav-item"
+                            target="_blank"
+                        >
+                            <div class="nav-item-hold">
+                                <i class="i-File-Word text-3xl"></i>
+                                <p>Doc</p>
+                            </div>
+                        </a>
                     </ul>
                 </perfect-scrollbar>
             </div>
-
-            
         </div>
-        
-       
     </div>
 </template>
 
 <style lang="scss" scoped>
 .nav-item.router-link-exact-active {
- 
     @apply text-purple-500;
 
     &:after {
@@ -94,16 +106,15 @@ let toggleSubMenu = (e) => {
         transform: rotate(45deg);
         @apply bg-purple-500;
     }
-                
 }
 .submenuLi {
     &:hover {
         .submenuli-icon {
-            color: #8B5CF6;
+            color: #8b5cf6;
         }
     }
     .submenuli-icon {
-        color: #9CA3AF;
+        color: #9ca3af;
     }
 }
 .submneu-nested-link {
@@ -111,7 +122,7 @@ let toggleSubMenu = (e) => {
     color: #000 !important;
     &:hover {
         background-color: transparent !important;
-        color: #8B5CF6 !important;
+        color: #8b5cf6 !important;
     }
 }
 .side-content-wrap {
@@ -215,7 +226,6 @@ let toggleSubMenu = (e) => {
                                 transform: rotate(90deg);
                                 transition: all 0.3s ease-in;
                             }
-                            
                         }
                         ul.submenu {
                             display: block;
@@ -251,7 +261,6 @@ let toggleSubMenu = (e) => {
                         @apply text-purple-500;
                     }
                     &.router-link-active.router-link-exact-active {
-                        
                         @apply text-purple-500;
                     }
                 }
@@ -274,10 +283,10 @@ let toggleSubMenu = (e) => {
             }
         }
     }
-    .sidebar-overlay{
+    .sidebar-overlay {
         display: none;
         position: fixed;
-        width: calc( 100% - 120px - 220px);
+        width: calc(100% - 120px - 220px);
         height: calc(100vh - 80px);
         bottom: 0;
         right: 0;
