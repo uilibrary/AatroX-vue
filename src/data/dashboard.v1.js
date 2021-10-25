@@ -6,55 +6,59 @@ import {
     sparklineData,
   } from "@/data/apexDataSeries";
 
-export const dashboardOne = {
-  
-  series : [{
-          name: 'Net Profit',
-          data: [44, 55, 57, 56, 61, 58, 63, 60, 66]
-        }, {
-          name: 'Revenue',
-          data: [76, 85, 101, 98, 87, 105, 91, 114, 94]
-        }],
-    chartOptions : {
-          colors: ['rgba(196, 181, 253, 1)', 'rgba(167, 139, 250, 1)'],
-          chart: {
-            toolbar: false,
-            type: 'bar',
-            height: 350,
-            
+
+  export const dashboardOne = {
+ 
+
+    series: [
+      {
+        name: 'Net Profit',
+        data: [44, 55, 57, 56, 61, 58, 63, 60, 66],
+      },
+      {
+        name: 'Revenue',
+        data: [76, 85, 101, 98, 87, 105, 91, 114, 94],
+      },
+    ],
+    chartOptions: {
+      colors: ['rgba(196, 181, 253, 1)', '#8b5cf6'],
+      chart: {
+        type: 'bar',
+        height: 350,
+        toolbar: {
+          show: false,
+        },
+      },
+      plotOptions: {
+        bar: {
+          horizontal: false,
+          columnWidth: '55%',
+          borderRadius: 10,
+        },
+      },
+      dataLabels: {
+        enabled: false,
+      },
+      stroke: {
+        show: true,
+        width: 2,
+        colors: ['transparent'],
+      },
+      xaxis: {
+        categories: ['Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct'],
+      },
+      fill: {
+        opacity: 1,
+      },
+      tooltip: {
+        y: {
+          formatter: function (val) {
+            return '$ ' + val + ' thousands';
           },
-          
-          plotOptions: {
-            bar: {
-              horizontal: false,
-              columnWidth: '55%',
-              endingShape: 'rounded'
-            },
-          },
-          dataLabels: {
-            enabled: false
-          },
-          stroke: {
-            show: true,
-            width: 2,
-            colors: ['transparent']
-          },
-          xaxis: {
-            categories: ['Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct'],
-          },
-        
-          fill: {
-            opacity: 1
-          },
-          tooltip: {
-            y: {
-              formatter: function (val) {
-                return "$ " + val + " thousands"
-              }
-            }
-          }
-      }
-};
+        },
+      },
+    }
+  };
 
 // export const dashboardOne = {
 //   series: [
