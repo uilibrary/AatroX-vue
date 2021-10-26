@@ -7,9 +7,10 @@
 
 // }
 body {
-    background-color: rgba(245, 243, 255, 1);
+    background-color: #fff;
+    // background-color: #fbfbfd;
     color: #47404f;
-   font-family: Nunito,sans-serif !important;
+    font-family: Nunito, sans-serif !important;
 }
 .z-1 {
     z-index: 1;
@@ -64,5 +65,3 @@ body {
 .custom-box-shadow {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-
-
