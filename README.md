@@ -19,8 +19,6 @@
 
 **Client:** Vue 3 , TailwindCSS , ViteJs
 
-<br>
-
 ## Aatrox - VueJS 3 & TailwindCss Admin
 
 ### Key Features
@@ -37,10 +35,7 @@
 
 ## Aatrox is the most comprehensive admin template availbale
 
-## Introduction
-
 If you're a developer seeking for a developer-friendly, feature-rich, and highly customizable admin dashboard, Aatrox is the best option. We used industry best practices to create the greatest admin template that is not only quick and easy to use, but also extremely scalable. With maximum convenience and versatility, you'll be able to create any application you desire with no effort.
-
 
 With ease, create high-quality applications. Create eye-catching, high-quality, and high-performing single-page apps with our creative admin template. Your apps will be fully responsive, ensuring that they look great and work perfectly on desktops, tablets, and mobile devices.
 
