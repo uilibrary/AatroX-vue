@@ -11,7 +11,11 @@
 
 <p align="center">
 <a href="https://aatrox-vue-free.netlify.app">
+<<<<<<< HEAD
   <img width="100%" height="auto" style="border-radius: 10px;" src="./src/assets/images/screenshot.png" alt="Aatrox Vue 3 & tailwindCss Admin " >
+=======
+  <img width="100%" height="auto" style="border-radius:10px;" src="./src/assets/images/screenshot.png" alt="Aatrox Vue 3 & tailwindCss Admin " width="114" height="114">
+>>>>>>> 750f58e8401161256e1bea50b9b82d041da2474b
   </a>
 </p>
 
