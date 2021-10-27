@@ -2,7 +2,7 @@
   <img src="https://aatrox-demo.vercel.app/assets/images/logo.png" alt="Logo of AatroX Vue.js 3 Admin dashboard" width="114" height="114">
 </p>
 
-<h3 align="center">💚 A Minimal Admin Dashboard Develop with Vue 3, VIte, and TailwindCss. It's Free 💥 </h3>
+<h3 align="center">💚 A Minimal Admin Dashboard Develop with Vue 3, Vite, and TailwindCss. It's Free 💥 </h3>
 
 <p align="center">
   Aatrox -  VueJS 3 & TailwindCss Free Admin  Dashboard Template<br>
@@ -33,7 +33,7 @@
 -   🚝 [Ready to Deploy](https://www.netlify.com/)
 -   💫 Clean Code
 
-## Aatrox is the most comprehensive admin template availbale
+## Aatrox is the most comprehensive admin template available
 
 If you're a developer seeking for a developer-friendly, feature-rich, and highly customizable admin dashboard, Aatrox is the best option. We used industry best practices to create the greatest admin template that is not only quick and easy to use, but also extremely scalable. With maximum convenience and versatility, you'll be able to create any application you desire with no effort.
 
