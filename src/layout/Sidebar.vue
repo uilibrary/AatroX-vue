@@ -1,4 +1,5 @@
 <script setup>
+import { ref, onMounted, onBeforeUnmount } from 'vue'
 import { useStore } from 'vuex'
 import { useRoute } from 'vue-router'
 
@@ -8,6 +9,28 @@ let route = useRoute()
 let toggleSubMenu = (e) => {
     // let parent = e.target.dataset.item;
     console.log(e.target)
+}
+
+onMounted(() => {
+    window.addEventListener('resize', handleWindowResize)
+})
+// beforeDestroy
+onBeforeUnmount(() => {
+    window.removeEventListener('resize', handleWindowResize)
+})
+
+let handleWindowResize = () => {
+    let sidenav = store.state.largeSidebar.sidebarToggleProperties.isSideNavOpen
+
+    if (window.innerWidth <= 1200) {
+        if (store.state.largeSidebar.sidebarToggleProperties.isSideNavOpen) {
+            store.commit('largeSidebar/toggleSidebarProperties')
+        }
+    } else {
+        if (!store.state.largeSidebar.sidebarToggleProperties.isSideNavOpen) {
+            store.commit('largeSidebar/toggleSidebarProperties')
+        }
+    }
 }
 </script>
 <template>
