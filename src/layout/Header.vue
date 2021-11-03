@@ -9,29 +9,11 @@ let store = useStore()
 
 const sideBarToggle = () => {
     let sidenav = store.state.largeSidebar.sidebarToggleProperties.isSideNavOpen
-    let secondarySideNav =
-        store.state.largeSidebar.sidebarToggleProperties.isSecondarySideNavOpen
-    // store.commit('largeSidebar/toggleSecondarySidebarProperties')
 
     if (sidenav == false) {
         store.commit('largeSidebar/toggleSidebarProperties')
-        // store.commit('largeSidebar/toggleSecondarySidebarProperties')
-    } else if (sidenav == true && secondarySideNav == true) {
-        store.commit('largeSidebar/toggleSecondarySidebarProperties')
     } else {
         store.commit('largeSidebar/toggleSidebarProperties')
-    }
-}
-
-// switch color to dark and light
-const enabled = ref(false)
-const html = document.querySelector('html')
-
-let colorModeSwitch = () => {
-    if (enabled.value === true) {
-        html.classList.add('dark')
-    } else {
-        html.classList.remove('dark')
     }
 }
 </script>
@@ -525,7 +507,6 @@ let colorModeSwitch = () => {
                     p-1
                     md:mr-2
                 "
-
                 href="https://github.com/uilibrary/AatroX-vue"
                 target="_blank"
             >
@@ -533,7 +514,7 @@ let colorModeSwitch = () => {
                     width="24"
                     height="24"
                     fill="currentColor"
-                    class="text-purple-600  text-opacity-50 transform"
+                    class="text-purple-600 text-opacity-50 transform"
                 >
                     <path
                         fill-rule="evenodd"

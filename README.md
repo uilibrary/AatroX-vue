@@ -17,7 +17,7 @@
 
 ## Tech Stack
 
-**Client:** Vue 3 , TailwindCSS , ViteJs
+**Client Side :** Vue 3 , TailwindCSS , ViteJs
 
 ## Aatrox - VueJS 3 & TailwindCss Admin
 
