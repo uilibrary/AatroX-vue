@@ -24,7 +24,7 @@
 ### Key Features
 
 -   ⚡️ [Vue 3](https://github.com/vuejs/vue-next) & [Vite](https://vitejs.dev)
--   🛣 Beatifully Crafted
+-   🛣 Beautifully Crafted
 -   📦 [TailwindCss](https://tailwindcss.com/)
 -   📑 [Nuxt-inspired Routing ](./src/routes/index.js)
 -   🔍 Well Organized
