@@ -99,17 +99,17 @@ Start the server
 
 We also have a pro version of this product which bundles even more pages and components if you want to save more time and design efforts.
 
-| Free Version (this one) | [Aatrox Dashboard PRO](https://aatrox-vue.netlify.app/landingpage) |
-| ----------------------- | ------------------------------------------------------------------ |
-| **5** Demo Pages        | **50+** demo pages                                                 |
-| -                       | ✔ Dark & light mode                                                |
-| - 1 Dashboard           | ✔ 5 Dashboard                                                      |
-| -                       | ✔ 11 App Pages                                                     |
-| -                       | ✔ 6 UiKits Pages                                                   |
-| -                       | ✔ Advanced Widgets                                                 |
-| -                       | ✔ 2 Profile Version                                                |
-| -                       | ✔ 10 Authentication Pages                                          |
-| -                       | ✔ 10 Types of Charts Demo Pages                                    |
+| Free Version (this one) | [Aatrox Dashboard PRO](https://ui-lib.com/downloads/aatrox-vue-dashboard) |
+| ----------------------- | ------------------------------------------------------------------------- |
+| **5** Demo Pages        | **50+** demo pages                                                        |
+| -                       | ✔ Dark & light mode                                                       |
+| - 1 Dashboard           | ✔ 5 Dashboard                                                             |
+| -                       | ✔ 11 App Pages                                                            |
+| -                       | ✔ 6 UiKits Pages                                                          |
+| -                       | ✔ Advanced Widgets                                                        |
+| -                       | ✔ 2 Profile Version                                                       |
+| -                       | ✔ 10 Authentication Pages                                                 |
+| -                       | ✔ 10 Types of Charts Demo Pages                                           |
 
 ## Demo
 

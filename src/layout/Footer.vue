@@ -9,7 +9,7 @@ export default {}
                 <div class="flex justify-between items-center">
                     <a
                         target="_blank"
-                        href="https://aatrox-vue.netlify.app/"
+                        href="https://ui-lib.com/downloads/aatrox-vue-dashboard"
                         style="position: fixed;
                          bottom: 14px; right: 80px"
                         class="
