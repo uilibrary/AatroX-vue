@@ -1,12 +1,11 @@
 <script setup>
-    import { 
-        dashboardOne, 
-        dashboardTwo, 
-        splineAreaWidgetTwo, 
-        splineAreaWidgetThree
-    } from '@/data/dashboard.v1.js';
-    import Breadcrumbs from '@/components/Breadcrumbs.vue'
-    
+import {
+    dashboardOne,
+    dashboardTwo,
+    splineAreaWidgetTwo,
+    splineAreaWidgetThree,
+} from '@/data/dashboard.v1.js'
+import Breadcrumbs from '@/components/Breadcrumbs.vue'
 </script>
 
 <template>
@@ -94,13 +93,23 @@
             <div class="col-span-12 xl:col-span-8 md:col-span-6">
                 <BaseCard>
                     <h4 class="card-title mb-4">This Year Sales</h4>
-                    <apexchart type="bar" height="350" :options="dashboardOne.chartOptions" :series="dashboardOne.series"></apexchart>
+                    <apexchart
+                        type="bar"
+                        height="290"
+                        :options="dashboardOne.chartOptions"
+                        :series="dashboardOne.series"
+                    ></apexchart>
                 </BaseCard>
             </div>
             <div class="col-span-12 xl:col-span-4 md:col-span-6">
                 <BaseCard>
-                    <h4 class="card-title mb-4">Sales By Countries </h4>
-                     <apexchart type="pie" height="390" width="380" :options="dashboardTwo.chartOptions" :series="dashboardTwo.series"></apexchart>
+                    <h4 class="card-title mb-4">Sales By Countries</h4>
+                    <apexchart
+                        type="pie"
+                        height="290"
+                        :options="dashboardTwo.chartOptions"
+                        :series="dashboardTwo.series"
+                    ></apexchart>
                 </BaseCard>
             </div>
             <div
@@ -115,15 +124,19 @@
                 <BaseCard noPadding class="overflow-hidden">
                     <div class="p-5">
                         <div class="text-gray-500">Last Month Sales</div>
-                        <p class="  text-primary text-2xl m-0">$40250</p>
-
+                        <p class="text-primary text-2xl m-0">$40250</p>
                     </div>
                     <div id="basicArea-chart">
-                        <apexchart type=area  height=270 :options="splineAreaWidgetTwo.chartOptions" :series="splineAreaWidgetTwo.series" />
+                        <apexchart
+                            type="area"
+                            height="270"
+                            :options="splineAreaWidgetTwo.chartOptions"
+                            :series="splineAreaWidgetTwo.series"
+                        />
                     </div>
                 </BaseCard>
             </div>
-          
+
             <div
                 class="
                     col-span-12
@@ -136,15 +149,19 @@
                 <BaseCard noPadding class="overflow-hidden">
                     <div class="p-5">
                         <div class="text-gray-500">Last Week Sales</div>
-                        <p class="  text-warning text-2xl m-0">$10250</p>
-
+                        <p class="text-warning text-2xl m-0">$10250</p>
                     </div>
                     <div id="basicArea-chart">
-                        <apexchart type=area  height=270 :options="splineAreaWidgetThree.chartOptions" :series="splineAreaWidgetThree.series" />
+                        <apexchart
+                            type="area"
+                            height="270"
+                            :options="splineAreaWidgetThree.chartOptions"
+                            :series="splineAreaWidgetThree.series"
+                        />
                     </div>
                 </BaseCard>
             </div>
-          
+
             <div class="col-span-12 xl:col-span-6 lg:col-span-6">
                 <BaseCard>
                     <div class="card-title mb-4">Top Selling Products</div>
@@ -299,7 +316,6 @@
                             >View Details</BaseBtn
                         >
                     </div>
-                    
                 </BaseCard>
             </div>
             <div
@@ -488,7 +504,7 @@
                     <template v-slot:cardHeader>
                         <div class="card-header">
                             <div class="card-title py-3">Recent Orders</div>
-                        </div>     
+                        </div>
                     </template>
                     <div
                         class="
@@ -507,7 +523,6 @@
                                 fixed-columns
                             "
                         >
-                            
                             <div
                                 class="
                                     dataTable-container
@@ -535,7 +550,7 @@
                                                     border-b
                                                     pb-3
                                                     mb-3
-                                                     text-gray-500
+                                                    text-gray-500
                                                     font-semibold
                                                 "
                                             >
@@ -547,7 +562,7 @@
                                                     border-b
                                                     pb-3
                                                     mb-3
-                                                     text-gray-500
+                                                    text-gray-500
                                                     font-semibold
                                                 "
                                             >
@@ -559,7 +574,7 @@
                                                     border-b
                                                     pb-3
                                                     mb-3
-                                                     text-gray-500
+                                                    text-gray-500
                                                     font-semibold
                                                 "
                                             >
@@ -571,7 +586,7 @@
                                                     border-b
                                                     pb-3
                                                     mb-3
-                                                     text-gray-500
+                                                    text-gray-500
                                                     font-semibold
                                                 "
                                             >
@@ -583,7 +598,7 @@
                                                     border-b
                                                     pb-3
                                                     mb-3
-                                                     text-gray-500
+                                                    text-gray-500
                                                     font-semibold
                                                 "
                                             >
@@ -595,7 +610,7 @@
                                                     border-b
                                                     pb-3
                                                     mb-3
-                                                     text-gray-500
+                                                    text-gray-500
                                                     font-semibold
                                                 "
                                             >
@@ -607,7 +622,7 @@
                                                     border-b
                                                     pb-3
                                                     mb-3
-                                                     text-gray-500
+                                                    text-gray-500
                                                     font-semibold
                                                 "
                                             >
@@ -620,14 +635,17 @@
                                             class="
                                                 hover:bg-gray-100
                                                 cursor-pointer
-                                                
                                             "
                                             v-for="(n, index) in 8"
                                             :key="index"
                                         >
-                                            <td class="text-xs py-5 px-4">{{index+1}}</td>
-                                            
-                                            <td class="text-xs ">Jhon {{index+1}}</td>
+                                            <td class="text-xs py-5 px-4">
+                                                {{ index + 1 }}
+                                            </td>
+
+                                            <td class="text-xs">
+                                                Jhon {{ index + 1 }}
+                                            </td>
                                             <td class="py-5">
                                                 <div class="flex">
                                                     <img
@@ -666,11 +684,20 @@
                                                     >Delivered</span
                                                 >
                                             </td>
-                                            <td class="py-5"> {{3.34 * index+1}}%</td>
+                                            <td class="py-5">
+                                                {{ 3.34 * index + 1 }}%
+                                            </td>
                                             <td class="py-5">12-02-20</td>
                                             <td class="py-5">
-                                               
-                                                <BaseBtn rounded class="border border-primary text-primary hover:bg-primary hover:text-white">
+                                                <BaseBtn
+                                                    rounded
+                                                    class="
+                                                        border border-primary
+                                                        text-primary
+                                                        hover:bg-primary
+                                                        hover:text-white
+                                                    "
+                                                >
                                                     View
                                                 </BaseBtn>
                                             </td>

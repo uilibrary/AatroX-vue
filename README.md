@@ -4,6 +4,22 @@
 
 <h3 align="center">💚 A Minimal Admin Dashboard Develop with Vue 3, Vite, and TailwindCss. It's Free 💥 </h3>
 
+## Upgrade to PRO Version
+
+We also have a pro version of this product which bundles even more pages and components if you want to save more time and design efforts.
+
+| Free Version (this one) | [Aatrox Dashboard PRO](https://ui-lib.com/downloads/aatrox-vue-dashboard) |
+| ----------------------- | ------------------------------------------------------------------------- |
+| **5** Demo Pages        | **50+** demo pages                                                        |
+| -                       | ✔ Dark & light mode                                                       |
+| - 1 Dashboard           | ✔ 5 Dashboard                                                             |
+| -                       | ✔ 11 App Pages                                                            |
+| -                       | ✔ 6 UiKits Pages                                                          |
+| -                       | ✔ Advanced Widgets                                                        |
+| -                       | ✔ 2 Profile Version                                                       |
+| -                       | ✔ 10 Authentication Pages                                                 |
+| -                       | ✔ 10 Types of Charts Demo Pages                                           |
+
 <p align="center">
   Aatrox -  VueJS 3 & TailwindCss Free Admin  Dashboard Template<br>
   <a href="https://aatrox-vue-free.netlify.app"><strong>Explore the Admin dashboard live »</strong></a>
@@ -94,22 +110,6 @@ Start the server
 ```bash
   yarn dev
 ```
-
-## Upgrade to PRO Version
-
-We also have a pro version of this product which bundles even more pages and components if you want to save more time and design efforts.
-
-| Free Version (this one) | [Aatrox Dashboard PRO](https://ui-lib.com/downloads/aatrox-vue-dashboard) |
-| ----------------------- | ------------------------------------------------------------------------- |
-| **5** Demo Pages        | **50+** demo pages                                                        |
-| -                       | ✔ Dark & light mode                                                       |
-| - 1 Dashboard           | ✔ 5 Dashboard                                                             |
-| -                       | ✔ 11 App Pages                                                            |
-| -                       | ✔ 6 UiKits Pages                                                          |
-| -                       | ✔ Advanced Widgets                                                        |
-| -                       | ✔ 2 Profile Version                                                       |
-| -                       | ✔ 10 Authentication Pages                                                 |
-| -                       | ✔ 10 Types of Charts Demo Pages                                           |
 
 ## Demo
 
