@@ -4,6 +4,17 @@
 
 <h3 align="center">💚 A Minimal Admin Dashboard Develop with Vue 3, Vite, and TailwindCss. It's Free 💥 </h3>
 
+<p align="center">
+  Aatrox -  VueJS 3 & TailwindCss Free Admin  Dashboard Template<br>
+  <a href="https://aatrox-vue-free.netlify.app"><strong>Explore the Admin dashboard live »</strong></a>
+</p>
+
+<p align="center">
+<a href="https://aatrox-vue-free.netlify.app">
+  <img width="100%" height="auto" style="border-radius: 10px;" src="./src/assets/images/screenshot.png" alt="Aatrox Vue 3 & tailwindCss Admin " >
+  </a>
+</p>
+
 ## Upgrade to PRO Version
 
 We also have a pro version of this product which bundles even more pages and components if you want to save more time and design efforts.
@@ -19,17 +30,6 @@ We also have a pro version of this product which bundles even more pages and com
 | -                       | ✔ 2 Profile Version                                                       |
 | -                       | ✔ 10 Authentication Pages                                                 |
 | -                       | ✔ 10 Types of Charts Demo Pages                                           |
-
-<p align="center">
-  Aatrox -  VueJS 3 & TailwindCss Free Admin  Dashboard Template<br>
-  <a href="https://aatrox-vue-free.netlify.app"><strong>Explore the Admin dashboard live »</strong></a>
-</p>
-
-<p align="center">
-<a href="https://aatrox-vue-free.netlify.app">
-  <img width="100%" height="auto" style="border-radius: 10px;" src="./src/assets/images/screenshot.png" alt="Aatrox Vue 3 & tailwindCss Admin " >
-  </a>
-</p>
 
 ## Tech Stack
 

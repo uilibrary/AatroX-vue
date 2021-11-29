@@ -95,7 +95,7 @@ import Breadcrumbs from '@/components/Breadcrumbs.vue'
                     <h4 class="card-title mb-4">This Year Sales</h4>
                     <apexchart
                         type="bar"
-                        height="290"
+                        height="255"
                         :options="dashboardOne.chartOptions"
                         :series="dashboardOne.series"
                     ></apexchart>
