@@ -30,7 +30,16 @@ export default {}
                         >
                     </div>
                     <div>
-                        <p>All rights reserved © UI Lib 2021</p>
+                        <p>
+                            Made with 💚 by
+                            <a
+                                class="text-primary underline"
+                                href="http://ui-lib.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Ui-Lib</a
+                            >
+                        </p>
                     </div>
                 </div>
             </BaseCard>
